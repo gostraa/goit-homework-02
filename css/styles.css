@@ -59,6 +59,10 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration:none;
+}
+ .site-nav.text:hover,.site-nav.text:focus{
+    color:var(--accent-two);
 }
 
 .cont-info{
@@ -74,6 +78,10 @@ list-style: none;
     letter-spacing: 0.02em;
     color:var(--secondary-text-color);
 
+}
+.link{
+    text-decoration:none;
+    list-style: none;
 }
 
 
@@ -110,7 +118,7 @@ list-style: none;
     
 }
 
-.order-button:hover{
+.order-button:hover,.order-button:focus{
 color:var(--accent-two);
 }
 
@@ -137,11 +145,11 @@ color:var(--accent-two);
 .projects.tittle{ 
     color: var(--primary-text-color);
     font-weight: 700;
-     font-size: 36px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
-     letter-spacing: 0.02em;
-     text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .projects.list{
@@ -169,7 +177,7 @@ color:var(--accent-two);
 
 .team.list{
     list-style: none;
-
+  background-color: var(--primary-bg-color);
 }
 
 .card-tittle{
@@ -184,7 +192,7 @@ color:var(--accent-two);
 
 
 
-card-text {
+.card-text {
     color:var(--secondary-text-color);
     font-size: 16px ;
    line-height: 1.5;
@@ -198,13 +206,16 @@ color:var(--third-bg-color);
 
 .footer{
     background-color: var(--secondary-bg-color);
-    color: var(--third-bg-color);
+    
 }
+
+
 .footer-text{
     
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em ;
+   color:var(--third-bg-color);
 }
 
 
