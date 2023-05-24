@@ -12,14 +12,16 @@
     --secondary-bg-color:#2E2F42;
     --third-bg-color : #F4F4FD;
     --accent:#4D5AE5;
+    --accent-two:#404bbf;
+
 }
    
 /* HOME PAGE */  /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ 
 
 body{
     background-color:var(--primary-bg-color);
-    color: var(--primary-text-color);
-    font-family: Roboto sans-serif; 
+    color: var(--secondary-text-color);
+    font-family: "Roboto" , sans-serif; 
     
    
 }
@@ -27,15 +29,29 @@ body{
 
 
 .logo.part{
-    color: var(--accent);
+    color: var(--secondary-bg-color);
 }
 .logo{
-    color:(var(--primary-text-color));
+    color:var(--accent);
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
      font-size: 18px;
-     line-height: 1.2; 
+     line-height: 1.17; 
+      letter-spacing: 0.03em;
+}
+
+.logo.link{
+     text-decoration: none;
+}
+
+.site-nav.list{
+list-style: none;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color:var(--secondary-bg-color);
 }
 
 .site-nav.text{
@@ -50,12 +66,20 @@ body{
     
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
+
+}
+.list{
+    list-style: none;
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color);
+
 }
 
 
 
 .cont-info:hover,.cont-info:focus{
-    color: var(--accent);
+    color: var(--accent-two);
 }
 
 
@@ -69,7 +93,8 @@ body{
     color: var(--primary-bg-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.07;
+    letter-spacing:0.02em;
     
 }
 
@@ -77,35 +102,50 @@ body{
     cursor:pointer;
     background-color: var(--accent);
     color:var(--primary-bg-color);
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     
 }
 
+.order-button:hover{
+color:var(--accent-two);
+}
 
-
+.feauters-list{
+    list-style: none;
+}
 
 .feauters.card-tittle{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.8;
+    line-height: 1.2;
+     letter-spacing: 0.02em;
 }
 
-.feauters.card-tittle p {
+.feauters-list.text{
     color: var(--secondary-text-color);
-    
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em ;
+
 }
 
 .projects.tittle{ 
     color: var(--primary-text-color);
     font-weight: 700;
      font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
+     letter-spacing: 0.02em
+     text-transform: capitalize;
+}
+
+.projects.list{
+    list-style: none;
 }
 
 .team{
@@ -119,31 +159,52 @@ body{
     color: var(--primary-text-color);
    font-weight: 700;
     font-size: 36px;
-    line-height: 1;  
+    line-height: 1.11;  
+    text-align: center;
+    letter-spacing: 0.02em;
+     text-transform: capitalize;
 }
 
-.team h3{
-    color:var(--primary-text-color);
+
+
+.team.list{
+    list-style: none;
+
+}
+
+.card-tittle{
+    background-color: var(--primary-bg-color);
+     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.8; 
+    line-height: 1.2; 
+     letter-spacing: 0.02em ;
+
 }
 
 
-.team p {
+
+card-text {
     color:var(--secondary-text-color);
+    font-size: 16px ;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
     
-   font-size: 16px;
-    line-height: 1.5;
+.logo.part-footer{
+color:var(--third-bg-color);
+
+}
 }
 .footer{
     background-color: var(--secondary-bg-color);
     color: var(--third-bg-color);
 }
-.footer p{
+.footer-text{
     
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
+   letter-spacing: 0.02em ;
 }
 
 
@@ -154,17 +215,16 @@ body{
 
 
 
-.filtre-buttons{
-    text-align: center;
-}
 
-.filtre-buttons button{
+
+.button{
 background-color: var(--third-bg-color);
 color: var(--accent);
 cursor:pointer;
+text-align: center;
 }
 
-.filtre-buttons button:hover{
+. button:hover{
     background-color: var(--accent);
     color: var(--primary-bg-color);
     font-weight: 500;
