@@ -140,7 +140,7 @@ color:var(--accent-two);
      font-size: 36px;
     line-height: 1.11;
     text-align: center;
-     letter-spacing: 0.02em
+     letter-spacing: 0.02em;
      text-transform: capitalize;
 }
 
@@ -195,7 +195,7 @@ card-text {
 color:var(--third-bg-color);
 
 }
-}
+
 .footer{
     background-color: var(--secondary-bg-color);
     color: var(--third-bg-color);
@@ -216,7 +216,6 @@ color:var(--third-bg-color);
 
 
 
-
 .button{
 background-color: var(--third-bg-color);
 color: var(--accent);
@@ -224,7 +223,7 @@ cursor:pointer;
 text-align: center;
 }
 
-. button:hover{
+.button:hover{
     background-color: var(--accent);
     color: var(--primary-bg-color);
     font-weight: 500;
