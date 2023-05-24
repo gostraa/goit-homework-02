@@ -47,7 +47,7 @@ body{
 
 .cont-info{
     color: var(--secondary-bg-color);
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
 }
@@ -95,7 +95,7 @@ body{
 
 .feauters.card-tittle p {
     color: var(--secondary-text-color);
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
 }
@@ -132,7 +132,7 @@ body{
 
 .team p {
     color:var(--secondary-text-color);
-    font-weight: 400;
+    
    font-size: 16px;
     line-height: 1.5;
 }
@@ -141,7 +141,7 @@ body{
     color: var(--third-bg-color);
 }
 .footer p{
-    font-weight: 400;
+    
    font-size: 16px;
    line-height: 1,5;
 }
@@ -188,7 +188,7 @@ cursor:pointer;
 }
 .projects p {
     color: var(--secondary-text-color);
-    font-weight: 400;
+    
    font-size: 16px;
    line-height: 1.5;
 }
