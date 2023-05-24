@@ -26,6 +26,8 @@ body{
    
 }
 
+/* дефолтные классы */
+
 .link{
     text-decoration: none;
 }
@@ -33,7 +35,7 @@ body{
     list-style: none;
 }
 
-
+/* логотип */
 .logo.part{
     color: var(--secondary-bg-color);
 }
@@ -47,7 +49,7 @@ body{
       letter-spacing: 0.03em;
 }
 
-
+/* навигация */
 
 .site-nav{
 
@@ -56,6 +58,10 @@ body{
  line-height: 1.5;
  letter-spacing: 0.02em;
  color:var(--secondary-bg-color);
+}
+
+.site-nav.list{
+    letter-spacing: 0.02em;
 }
 
 .site-nav.text{
@@ -70,12 +76,18 @@ body{
     color:var(--accent-two);
 }
 
+
+/* контактная информация */
+.cont-info{
+    font-style: normal;
+}
+
 .cont-info.text{
     color: var(--secondary-text-colorcolor);
     
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
+    
 
 }
 
@@ -87,7 +99,9 @@ body{
 }
 
 
+/* оснойвной контент */
 
+/* секция 1 */
 .main-header{
     background-color: var(--secondary-bg-color);
     text-align: center;
@@ -119,6 +133,8 @@ background-color:var(--accent-two);
 }
 
 
+/* секция 2 */
+
 .feauters.card-tittle{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -134,6 +150,8 @@ background-color:var(--accent-two);
     letter-spacing: 0.02em ;
 
 }
+
+/* секция 3 */
 
 .projects.tittle{ 
     color: var(--primary-text-color);
@@ -158,6 +176,10 @@ background-color:var(--accent-two);
      text-transform: capitalize;
 }
 
+
+
+
+/* секция 4 */
 
 
 .team{
@@ -187,7 +209,9 @@ background-color:var(--accent-two);
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
-    
+
+
+    /* футер */
 .logo.part-footer{
 color:var(--third-bg-color);
 
