@@ -26,6 +26,12 @@ body{
    
 }
 
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
 
 
 .logo.part{
@@ -41,12 +47,10 @@ body{
       letter-spacing: 0.03em;
 }
 
-.logo.link{
-     text-decoration: none;
-}
 
-.site-nav.list{
-list-style: none;
+
+.site-nav{
+
  font-weight: 500;
  font-size: 16px;
  line-height: 1.5;
@@ -59,7 +63,8 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration:none;
+    
+    
 }
  .site-nav.text:hover,.site-nav.text:focus{
     color:var(--accent-two);
@@ -73,16 +78,7 @@ list-style: none;
     font-style: normal;
 
 }
-.list{
-    list-style: none;
-    letter-spacing: 0.02em;
-    color:var(--secondary-text-color);
 
-}
-.link{
-    text-decoration:none;
-    list-style: none;
-}
 
 
 
@@ -122,9 +118,6 @@ list-style: none;
 background-color:var(--accent-two);
 }
 
-.feauters-list{
-    list-style: none;
-}
 
 .feauters.card-tittle{
     color: var(--primary-text-color);
@@ -152,14 +145,6 @@ background-color:var(--accent-two);
     text-transform: capitalize;
 }
 
-.projects.list{
-    list-style: none;
-}
-
-.team{
-    background-color: var(--third-bg-color);
-    color: var(--secondary-text-color);
-}
 
 
 
@@ -175,9 +160,9 @@ background-color:var(--accent-two);
 
 
 
-.team.list{
-    list-style: none;
-  background-color: var(--primary-bg-color);
+.team{
+    
+  background-color: var(--third-bg-color);
 }
 
 .team.text{
@@ -255,10 +240,12 @@ text-align: center;
     background-color:var(--accent-two);
 }
 
+.project-card{
+    background-color: var(--primary-bg-color);
+}
 
 
-
-.projects-tittle {
+.projects-tittle{
     color: var(--primary-text-color);
      font-weight: 500;
     font-size: 20px;
@@ -272,5 +259,5 @@ text-align: center;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   
+
 }
