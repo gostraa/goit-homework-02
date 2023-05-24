@@ -1,75 +1,194 @@
-/* основной увет шрифта #2E2F42 */
-/* вторичный цвет текста #434455 */
-/* цвет шрифта героя #FFFFFF */
-/* увет шрифта футер #F4F4FD */ 
+/* цвет основного текста #2E2F42 */
+/* цвет вторичного текста #434455 */
+/* главный цвет фона #FFFFFF */
+/* цвет акцента #4D5AE5 */
+/* вторичный цвет фона #F4F4FD */
+
+
+:root{
+    --primary-text-color:  #2E2F42;
+    --secondary-text-color: #434455;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color:#2E2F42;
+    --third-bg-color : #F4F4FD;
+    --accent:#4D5AE5;
+}
+   
+/* HOME PAGE */  /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ 
 
 body{
-    background-color: #FFFFFF;
-}
-
-ul {
-    list-style-type: none; /* Удаляет точки */
-  }
-
-/* header */
-
- .site-nav.text {
-color:#2E2F42 ;
-}
-
-.cont-info.text{
-    color:#434455;
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto sans-serif; 
+    
+   
 }
 
 
-/* main content */
+
+.logo.part{
+    color: var(--accent);
+}
+.logo{
+    color:(var(--primary-text-color));
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 800;
+     font-size: 18px;
+     line-height: 1.2; 
+}
+
+.site-nav.text{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cont-info{
+    color: var(--secondary-bg-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.cont-info:hover,.cont-info:focus{
+    color: var(--accent);
+}
+
+
+
 .main-header{
-    background-color: #2E2F42;
+    background-color: var(--secondary-bg-color);
+    text-align: center;
 }
 
 .main-header.tittle{
-    color:#FFFFFF;
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    
 }
-
 
 .order-button{
-    background-color: #4D5AE5;
-    color: #ffffff;
+    cursor:pointer;
+    background-color: var(--accent);
+    color:var(--primary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    
 }
 
-.feauters.tittle{
-    color:#2E2F42;
+
+
+
+.feauters.card-tittle{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.8;
 }
 
-.feauters h3{
- color:#2E2F42;
+.feauters.card-tittle p {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.feauters p {
-    color:#434455;
+.projects.tittle{ 
+    color: var(--primary-text-color);
+    font-weight: 700;
+     font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
 }
 
-.projects.tittle{
-    color:#2E2F42;
+.team{
+    background-color: var(--third-bg-color);
+    color: var(--secondary-text-color);
 }
+
+
 
 .team.tittle{
-    color:#2E2F42;
+    color: var(--primary-text-color);
+   font-weight: 700;
+    font-size: 36px;
+    line-height: 1;  
 }
 
 .team h3{
-    color: #2E2F42;
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.8; 
 }
 
-.team p{
-    color:#434455;
+
+.team p {
+    color:var(--secondary-text-color);
+    font-weight: 400;
+   font-size: 16px;
+    line-height: 1.5;
 }
-
-
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--secondary-bg-color);
+    color: var(--third-bg-color);
+}
+.footer p{
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 1,5;
 }
 
-.footer>p{
-    color:#F4F4FD;
+
+
+
+
+/* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */
+
+
+
+.filtre-buttons{
+    text-align: center;
+}
+
+.filtre-buttons button{
+background-color: var(--third-bg-color);
+color: var(--accent);
+cursor:pointer;
+}
+
+.filtre-buttons button:hover{
+    background-color: var(--accent);
+    color: var(--primary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.filtre-buttons button:focus{
+    
+    color:  var(--secondary-bg-color);
+}
+
+
+
+
+.projects h2 {
+    color: var(--primary-text-color);
+     font-weight: 500;
+    font-size: 20px;
+    line-height: 1;  
+
+}
+.projects p {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
 }
