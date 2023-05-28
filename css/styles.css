@@ -36,21 +36,25 @@ body{
 }
 
 /* логотип */
+
+/* кусочек логотипа STUDIO */
 .logo.part{
     color: var(--secondary-bg-color);
 }
+
+/* стили для всего логотипа */
 .logo{
     color:var(--accent);
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.17; 
-      letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
 }
 
 /* навигация */
-
+/* обшие стили для навигации */
 .site-nav{
 
  font-weight: 500;
@@ -59,11 +63,11 @@ body{
  letter-spacing: 0.02em;
  color:var(--secondary-bg-color);
 }
-
+/* общие стили для списка ссылок */
 .site-nav.list{
     letter-spacing: 0.02em;
 }
-
+/* стиль для текста ссылок */
 .site-nav.text{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -72,16 +76,20 @@ body{
     
     
 }
+
+/* ховер и фокус для ссылок навигации  */
  .site-nav.text:hover,.site-nav.text:focus{
     color:var(--accent-two);
 }
 
 
 /* контактная информация */
+
+/* общие стили для контактной информации */
 .cont-info{
     font-style: normal;
 }
-
+/* стили для текста контактной информации */
 .cont-info.text{
     color: var(--secondary-text-colorcolor);
     
@@ -92,7 +100,7 @@ body{
 }
 
 
-
+/* ховер и фокус для ссылок контактной информации */
 
 .cont-info:hover,.cont-info:focus{
     color: var(--accent-two);
@@ -135,15 +143,15 @@ background-color:var(--accent-two);
 
 /* секция 2 */
 
-.feauters.card-tittle{
+.feauters-card.tittle{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 }
 
-.feauters-list.text{
+.feauters-card.text{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.5 ;
@@ -163,10 +171,10 @@ background-color:var(--accent-two);
     text-transform: capitalize;
 }
 
+/* секция 4 */
 
 
-
-.team.tittle{
+.team-tittle{
     color: var(--primary-text-color);
    font-weight: 700;
     font-size: 36px;
@@ -177,17 +185,12 @@ background-color:var(--accent-two);
 }
 
 
-
-
-/* секция 4 */
-
-
 .team{
     
   background-color: var(--third-bg-color);
 }
 
-.team.text{
+.team-card-content{
     background-color: var(--primary-bg-color);
 }
 
@@ -200,8 +203,6 @@ background-color:var(--accent-two);
      letter-spacing: 0.02em ;
 
 }
-
-
 
 .card-text {
     color:var(--secondary-text-color);
@@ -232,13 +233,10 @@ color:var(--third-bg-color);
 }
 
 
-
-
-
 /* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */ /* PAGE PORTFOLIO */
 
 
-
+/* фильтровые кнопки */
 
 .button{
 background-color: var(--third-bg-color);
@@ -252,19 +250,15 @@ cursor:pointer;
 text-align: center;
 }
 
-.button:hover{
+.button:hover,.button:focus{
      color: var(--primary-bg-color);
     background-color:var(--accent-two);
     
 }
 
 
-.button:focus{
-    color: var(--primary-bg-color);
-    background-color:var(--accent-two);
-}
-
-.project-card{
+/* карточки-ссылки проектов */
+.project-card-content{
     background-color: var(--primary-bg-color);
 }
 
